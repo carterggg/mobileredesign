@@ -16,6 +16,8 @@ body {
 }
 
 
+
+
 /* Layout */
 
 .greentext {
@@ -32,30 +34,55 @@ body {
 
 
 /* unvisited link */
-.btn btn-default btn-lg btn-block a:link {
+.secondary-button-links a:link {
     color: #FFF;
 	text-decoration: none;
 }
 
 /* visited link */
-.btn btn-default btn-lg btn-block a:visited {
+.secondary-button-links a:visited {
     color: #FFF;
 	text-decoration: none;
 }
 
 /* mouse over link */
-.btn btn-default btn-lg btn-block a:hover {
+.secondary-button-links a:hover {
     color: #093;
 	text-decoration: none;
 }
 
 /* selected link */
-.btn btn-default btn-lg btn-block a:active {
+.secondary-button-links a:active {
     color: #FFF;
 	text-decoration: none;
 }
 
 /* Module */
+
+/* NAV BAR COLOR CHANGER */
+
+.navbar-inverse { background-color: #F3F3F3}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #093}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #000000}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #000000}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #000000}
+.navbar-inverse .navbar-brand { color: #000000}
+.navbar-inverse .navbar-brand:hover { color: #4D4D4D}
+.navbar-inverse .navbar-nav>li>a { color: #000000}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+/* END OF= nav bar css coding */
+
 
 /* State */
 
@@ -106,29 +133,6 @@ body {
 
 
 
-/* NAV BAR COLOR CHANGER */
-
-.navbar-inverse { background-color: #F3F3F3}
-.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #093}
-.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #000000}
-.dropdown-menu { background-color: #FFFFFF}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #000000}
-.navbar-inverse { background-image: none; }
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
-.navbar-inverse { border-color: #000000}
-.navbar-inverse .navbar-brand { color: #000000}
-.navbar-inverse .navbar-brand:hover { color: #4D4D4D}
-.navbar-inverse .navbar-nav>li>a { color: #000000}
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
-.dropdown-menu>li>a { color: #333333}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
-.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
-.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
-/* END OF= nav bar css coding */
 
 
 
