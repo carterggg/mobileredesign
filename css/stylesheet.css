@@ -25,7 +25,16 @@ footer {
 }
 
 
+
+
 /* Layout */
+
+.page-title {
+	color:#093;
+	background-color:#FFF;
+	text-align:center;
+	
+}
 
 .greentext {
 	color: #093;	
