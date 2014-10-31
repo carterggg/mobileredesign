@@ -17,7 +17,7 @@ body {
 
 footer {
 	text-align:center;
-	background-color:#rrrrr;
+
 <<<<<<< HEAD
 =======
 	
@@ -63,6 +63,12 @@ footer {
     color: #FFF;
 	text-decoration: none;
 }
+
+
+.align-right {
+	text-align:right;
+}
+
 
 /* Module */
 

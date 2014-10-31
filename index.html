@@ -7,12 +7,32 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
 
-
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
 
-<body>
+<body onLoad="MM_preloadImages('images/facebook2.png','images/googleplus2.png')">
 
 <!-- Main Menu BAR -->
 
@@ -73,7 +93,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div> <!-- column size ender -->
 
 <div class="col-sm-6">
@@ -81,7 +106,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div><!-- column size ender -->
 
 </div><!-- END OF row -->
@@ -94,7 +124,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div> <!-- column size ender -->
 
 <div class="col-sm-6">
@@ -102,7 +137,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div><!-- column size ender -->
 
 </div><!-- END OF row -->
@@ -115,7 +155,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div> <!-- column size ender -->
 
 <div class="col-sm-6">
@@ -123,7 +168,12 @@
 <img src="images/blogimage.jpg" class="img-responsive" alt="Main Headline">
 <br>
 <p>bootstrap blah bootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blahbootstrap blah</p>
-<a href="">Read More...</a>
+
+<a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook" width="46" height="46" id="facebook"></a>
+ <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('googleplus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="googleplus" width="46" height="46" id="googleplus"></a>
+
+ <div class="align-right"><a href="">Read More...</a></div>
+<br>
 </div><!-- column size ender -->
 
 </div><!-- END OF row -->
@@ -152,11 +202,14 @@
   
   <p> PO Box 966 Grayson GA 30017 <br>
   (770)-963-3699</p>
-
-<a href="#">Contact</a>
-<a href="#">Policies</a>
-
-<p>Where to get a Gwinnett <div class="greentext">Citizen</div> Paper</p>
+  <p> <a href="https://www.facebook.com/gwinnett.citizen" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebookbutton','','images/facebook2.png',1)"><img src="images/facebook3.png" alt="facebook button" width="46" height="46" id="facebookbutton"> </a> 
+    
+    <a href="https://plus.google.com/+Gwinnettcitizen/posts" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('google plus','','images/googleplus2.png',1)"><img src="images/googleplus3.png" alt="google plus" width="46" height="46" id="google plus"></a>  </p>
+  
+  
+  <p><a href="http://gwinnettcitizen.com/gc/contact">Contact</a>
+    <a href="http://gwinnettcitizen.com/gc/privacy-policy">Policies</a>  </p>
+  <p>Where to get a Gwinnett <div class="greentext">Citizen</div> Paper</p>
 <p>Copyright 2014. The Gwinnett Citizen All Rights Reserved.</p>
 
 
