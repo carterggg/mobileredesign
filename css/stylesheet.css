@@ -35,6 +35,15 @@ footer {
 	text-align:center;
 	
 }
+.img-responsive2{
+	margin:auto;
+	padding:auto;
+	display:block;
+	width:100% \9;
+	max-width:100%;
+	height:auto;
+	
+}
 
 .greentext {
 	color: #093;	

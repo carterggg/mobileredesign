@@ -8,6 +8,24 @@
 <link rel="stylesheet" href="css/stylesheet.css">
 
 <script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="fullcalendar/fullcalendar.css"/>
+<script src="lib/jquery.min.js"></script>
+<script src="lib/moment.min.js"></script>
+<script src="fullcalendar/fullcalendar.js"></script>
+<script>
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $("#calendar").fullCalendar({
+        // put your options and callbacks here
+    })
+
+});
+</script>
+
+
 <a href="http://www.accuweather.com/en/us/lawrenceville-ga/30046/weather-forecast/332464" class="aw-widget-legal">
 <!--
 By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
@@ -105,6 +123,9 @@ function MM_swapImage() { //v3.0
     
 
 <div class="container-fluid">
+<img src="images/GwinnettCounty.jpg" class="img-responsive2" alt="gwinnett county sign">
+
+<div id="calendar"></div>
 
 
 http://fullcalendar.io/wiki/Support/
