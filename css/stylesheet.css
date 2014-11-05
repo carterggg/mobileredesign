@@ -51,6 +51,11 @@ footer {
 	
 }
 
+.dropdown {
+	background-color:#FFF;
+	float:right;
+	
+}
 .col-sm-6 {
 	background-color:#FFF;
 }
