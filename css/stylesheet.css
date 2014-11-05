@@ -47,11 +47,16 @@ h2 {
 	
 }
 
+.centered-coupons img {
+	margin:auto;
+	padding:auto;
+}
+
+/*
 .greentext {
 	color: #093;	
-	
-	
 }
+*/
 
 .dropdown {
 	background-color:#FFF;
@@ -61,8 +66,6 @@ h2 {
 .col-sm-6 {
 	background-color:#FFF;
 }
-
-
 
 
 
