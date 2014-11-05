@@ -24,7 +24,9 @@ footer {
 >>>>>>> FETCH_HEAD
 }
 
-
+h2 {
+	text-align:center;
+}
 
 
 /* Layout */
@@ -59,6 +61,7 @@ footer {
 .col-sm-6 {
 	background-color:#FFF;
 }
+
 
 
 
