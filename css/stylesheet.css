@@ -84,7 +84,9 @@ h1 {
 	padding-right:10px;
 }
 
-
+.centerpagination {
+	text-align:center;
+}
 
 /* unvisited link */
 .secondary-button-links a:link {
