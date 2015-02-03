@@ -2,11 +2,6 @@
 /* CSS Document */
 
 
-
-
-
-
-
 /* Base */
 
 body {
@@ -28,7 +23,7 @@ h2 {
 	text-align:center;
 }
 
-h4{
+h4, h3 {
 	color:#093;
 }
 
